@@ -6,12 +6,18 @@
     <title>Document</title>
     <script>
         function hello(){
-            document.write("Hello Everyone");
+            alert("Hello Everyone");
         }
     </script>
 </head>
 <body>
     <!-- Click Event -->
     <button onclick="hello()">Click Me</button>
+
+    <!-- Double Click Event -->
+    <p ondblclick="hello()">Double Click this paragraph</p>
+
+    <!-- Mouse Hover -->
+    <p onmouseenter="hello()">Mouse Hover Event</p>
 </body>
 </html>
